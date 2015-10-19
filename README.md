@@ -1,1 +1,2 @@
-jekyll build --source dist
+gulp deploy
+git subtree push --prefix dist origin master
