@@ -1,10 +1,10 @@
-$icon-font-path: '../fonts/';
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-.browserupgrade {
+.browsehappy {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
