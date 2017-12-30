@@ -24,16 +24,16 @@ activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   # blog.prefix = "blog"
 
-   blog.permalink = "articles/{title}"
+  blog.permalink = "articles/{title}.html"
   # Matcher for blog source files
    blog.sources = "articles/{title}.html"
-   blog.taglink = "tags/{tag}"
+   blog.taglink = "tags/{tag}.html"
   # blog.layout = "layout"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
-   blog.year_link = "{year}"
-   blog.month_link = "{year}/{month}"
-   blog.day_link = "{year}/{month}/{day}"
+   #blog.year_link = "{year}.html"
+   #blog.month_link = "{year}/{month}.html"
+   #blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
   blog.tag_template = "tag.html"
