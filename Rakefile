@@ -2,7 +2,6 @@ task default: %w[test]
 
 task :release do
   system %{
-git commit -am "Release" && \
 git push -f origin source && \
 middleman build && \
 git checkout master && \
