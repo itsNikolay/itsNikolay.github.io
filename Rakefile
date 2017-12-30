@@ -23,6 +23,6 @@ end
 
 task :build do
   system %{
-middleman build --verbose
+middleman build --clean
   }
 end

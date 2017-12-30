@@ -8,8 +8,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (7.2.3)
-      execjs
     backports (3.11.0)
     builder (3.2.3)
     coffee-script (2.4.1)
@@ -51,9 +49,6 @@ GEM
       middleman-cli (= 4.2.1)
       middleman-core (= 4.2.1)
       sass (>= 3.4.0, < 4.0)
-    middleman-autoprefixer (2.8.0)
-      autoprefixer-rails (>= 7.0.1, < 8.0.0)
-      middleman-core (>= 3.3.3)
     middleman-blog (4.0.2)
       addressable (~> 2.3)
       middleman-core (~> 4.0)
@@ -103,6 +98,7 @@ GEM
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    redcarpet (3.4.0)
     sass (3.4.25)
     servolux (0.13.0)
     temple (0.8.0)
@@ -118,14 +114,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  builder
-  middleman (~> 4.2)
-  middleman-autoprefixer (~> 2.7)
-  middleman-blog (~> 4.0.2)
+  builder (~> 3.0)
+  middleman (~> 4.1)
+  middleman-blog
   middleman-livereload
   rake
+  redcarpet (~> 3.3, >= 3.3.3)
   tzinfo-data
-  wdm (~> 0.1)
+  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.15.4
