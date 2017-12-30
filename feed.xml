@@ -11,10 +11,10 @@
   </author>
   <entry>
     <title>Example Article</title>
-    <link rel="alternate" href="http://blog.url.com/articles/test"/>
-    <id>http://blog.url.com/articles/test</id>
+    <link rel="alternate" href="http://blog.url.com/articles/test.html"/>
+    <id>http://blog.url.com/articles/test.html</id>
     <published>2012-01-01T04:00:00+04:00</published>
-    <updated>2017-12-30T20:39:01+03:00</updated>
+    <updated>2017-12-30T20:53:48+03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
