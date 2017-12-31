@@ -68,4 +68,20 @@ configure :build do
    activate :minify_javascript
 end
 
+set :markdown_engine, :redcarpet
+set :markdown,
+  no_intra_emphasis: true,
+  tables: true,
+  fenced_code_blocks: true,
+  with_toc_data: true,
+  autolink: true,
+  strikethrough: true,
+  superscript: true,
+  highlight: true,
+  disable_indented_code_blocks: true,
+  underline: true,
+  quote: true,
+  footnotes: true,
+  prettify: true
+
 Time.zone = "Moscow"
