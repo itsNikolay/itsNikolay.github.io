@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Blog Name</title>
-  <subtitle>Blog subtitle</subtitle>
-  <id>http://blog.url.com/</id>
-  <link href="http://blog.url.com/"/>
-  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <title>itsNikolay Blog</title>
+  <subtitle>Web Development</subtitle>
+  <id>http://itsNikolay.github.io/</id>
+  <link href="http://itsNikolay.github.io/"/>
+  <link href="http://itsNikolay.github.io/feed.xml" rel="self"/>
   <updated>2012-01-01T00:00:00+04:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
     <title>Example Article</title>
-    <link rel="alternate" href="http://blog.url.com/articles/example.html"/>
-    <id>http://blog.url.com/articles/example.html</id>
+    <link rel="alternate" href="http://itsNikolay.github.io/articles/example.html"/>
+    <id>http://itsNikolay.github.io/articles/example.html</id>
     <published>2012-01-01T00:00:00+04:00</published>
-    <updated>2017-12-31T13:10:17+03:00</updated>
+    <updated>2017-12-31T16:11:08+03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
