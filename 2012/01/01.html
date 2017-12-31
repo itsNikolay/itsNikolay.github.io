@@ -1,25 +1,61 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Middleman</title>
-    <link href="/stylesheets/site.css" rel="stylesheet" />
-    <script src="/javascripts/site.js"></script>
+    <meta charset="utf-8" />
+<meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Blog Title</title>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link href="/stylesheets/site.css" rel="stylesheet" />
+<script src="/javascripts/site.js"></script>
+
+
   </head>
   <body>
-    <h1>Archive for
+    <div class="container">
+      <header class="logo">
+        <a href="/">Blog</a>
+      </header>
+
+      <div class="row">
+        <div class="three columns">
+          <p>Recent Articles</p>
+<ol>
+    <li><a href="/articles/example.html">Example Article</a> <span>Jan  1</span></li>
+</ol>
+
+<p>Tags</p>
+<ol>
+    <li><a href="/tags/example.html">example (1)</a></li>
+</ol>
+
+<p>By Year</p>
+<ol>
+    <li><a href="/2012.html">2012 (1)</a></li>
+</ol>
+
+        </div>
+
+        <div class="nine columns">
+          <div class="main">
+            <h1>Archive for
     Jan  1 2012
 </h1>
 
 
 <ul>
-    <li><a href="/articles/test.html">Example Article</a> <span>Jan  1</span></li>
+    <li><a href="/articles/example.html">Example Article</a> <span>Jan  1</span></li>
 </ul>
 
 
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
