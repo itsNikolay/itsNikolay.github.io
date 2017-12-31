@@ -1,24 +1,55 @@
-<header class="logo">
-  <%= link_to 'Blog', '/' %>
-</header>
+<div class="row">
+  <div class="twelve columns">
+    <header class="logo">
+      <%= link_to 'itsNikolay Blog', '/' %>
+    </header>
+  </div>
+</div>
 
-<p>Recent Articles</p>
-<ol>
-  <% blog.articles[0...10].each do |article| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-  <% end %>
-</ol>
+<div class="row">
+  <div class="twelve columns">
+    <a href="https://stackoverflow.com/users/1117851/itsnikolay" target="_blank">
+      <img
+      src="https://stackoverflow.com/users/flair/1117851.png?theme=clean"
+      width="208"
+      height="58"
+      alt="profile for itsnikolay at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+      title="profile for itsnikolay at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+      class="u-max-full-width"
+      >
+    </a>
+  </div>
+</div>
 
-<p>Tags</p>
-<ol>
-  <% blog.tags.each do |tag, articles| %>
-    <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-  <% end %>
-</ol>
+<div class="row">
+  <div class="twelve columns">
+    <p>Recent Articles</p>
+    <ol>
+      <% blog.articles[0...10].each do |article| %>
+        <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+      <% end %>
+    </ol>
+  </div>
+</div>
 
-<p>By Year</p>
-<ol>
-  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-    <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
-  <% end %>
-</ol>
+<div class="row">
+  <div class="twelve columns">
+    <p>Tags</p>
+    <ol>
+      <% blog.tags.sort.each do |tag, articles| %>
+        <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+      <% end %>
+    </ol>
+  </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns">
+    <p>By Year</p>
+    <ol>
+      <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+        <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+      <% end %>
+    </ol>
+  </div>
+</div>

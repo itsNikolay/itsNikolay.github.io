@@ -68,6 +68,7 @@ configure :build do
    activate :minify_javascript
 end
 
+# https://george-hawkins.github.io/basic-gfm-jekyll/redcarpet-extensions.html
 set :markdown_engine, :redcarpet
 set :markdown,
   no_intra_emphasis: true,
