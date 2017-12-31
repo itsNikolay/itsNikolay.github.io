@@ -5,23 +5,7 @@
   <id>http://itsNikolay.github.io/</id>
   <link href="http://itsNikolay.github.io/"/>
   <link href="http://itsNikolay.github.io/feed.xml" rel="self"/>
-  <updated>2012-01-01T00:00:00+04:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
-  <entry>
-    <title>Example Article</title>
-    <link rel="alternate" href="http://itsNikolay.github.io/articles/example.html"/>
-    <id>http://itsNikolay.github.io/articles/example.html</id>
-    <published>2012-01-01T00:00:00+04:00</published>
-    <updated>2017-12-31T16:11:08+03:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-ruby"&gt;Class.new(hello: 'world')
-&lt;/code&gt;&lt;/pre&gt;
-</content>
-  </entry>
 </feed>
